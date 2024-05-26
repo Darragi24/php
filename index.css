@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up container */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style heading */
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Style buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Primary button */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Secondary button */
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Rounded buttons */
+.btn-round {
+    border-radius: 30px;
+}
+
+/* Hover effect */
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}

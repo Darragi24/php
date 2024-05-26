@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="signUpUser.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="mt-5">Creer un compte</h2>
+        <form action="User.php" method="get">
+           
+
+          
+
+            <div class="mb-3">
+                <label for="firstname" class="form-label">Prénom:</label>
+                <input type="text" class="form-control" id="firstname" name="firstname" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="lastname" class="form-label">Nom:</label>
+                <input type="text" class="form-control" id="lastname" name="lastname" required>
+            </div>
+            <div class="mb-3">
+                <label for="login" class="form-label">Login:</label>
+                <input type="text" class="form-control" id="login" name="login" required>
+            </div>
+            <div class="mb-3">
+                <label for="motDePasse" class="form-label">Mot de Passe:</label>
+                <input type="password" class="form-control" id="motDePasse" name="motDePasse" required>
+            </div>
+            <div class="mb-3">
+                <label for="numero" class="form-label">Numéro:</label>
+                <input type="text" class="form-control" id="numero" name="numero" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="sexe" class="form-label">Sexe:</label>
+                <select class="form-select" id="sexe" name="sexe" required>
+                    <option value="male">Homme</option>
+                    <option value="female">Femme</option>
+                    
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="age" class="form-label">Age:</label>
+                <input type="number" class="form-control" id="age" name="age" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Ajouter</button>
+        </form>
+    </div>
+
+   
+</body>
+
+</html>
